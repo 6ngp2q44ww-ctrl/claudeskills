@@ -1,47 +1,47 @@
 # CLAUDE.md
 
-This file provides guidance for Claude when working on this codebase.
+Diese Datei bietet Anleitungen für Claude bei der Arbeit an dieser Codebasis.
 
-## Project Overview
+## Projektübersicht
 
-claudeskills is a Claude Skill Directory built with Next.js. It serves as a directory for Claude skills and capabilities.
+claudeskills ist ein Claude Skill-Verzeichnis, das mit Next.js erstellt wurde. Es dient als Verzeichnis für Claude-Skills und -Fähigkeiten.
 
-## Tech Stack
+## Technologie-Stack
 
 - **Framework**: Next.js (App Router)
-- **Language**: TypeScript/TSX
-- **Styling**: Inline styles (currently)
+- **Sprache**: TypeScript/TSX
+- **Styling**: Inline-Styles (derzeit)
 
-## Development Commands
+## Entwicklungsbefehle
 
 ```bash
-# Install dependencies
+# Abhängigkeiten installieren
 npm install
 
-# Run development server
+# Entwicklungsserver starten
 npm run dev
 
-# Build for production
+# Für Produktion bauen
 npm run build
 
-# Start production server
+# Produktionsserver starten
 npm start
 ```
 
-## Project Structure
+## Projektstruktur
 
 ```
 claudeskills/
 ├── app/
-│   └── page.tsx      # Homepage component
-├── next.config.js    # Next.js configuration
-├── package.json      # Project dependencies
-└── README.md         # Project documentation
+│   └── page.tsx      # Homepage-Komponente
+├── next.config.js    # Next.js-Konfiguration
+├── package.json      # Projektabhängigkeiten
+└── README.md         # Projektdokumentation
 ```
 
-## Coding Conventions
+## Coding-Konventionen
 
-- Use functional React components with TypeScript
-- Follow Next.js App Router conventions
-- Keep components simple and focused
-- Use meaningful variable and function names
+- Funktionale React-Komponenten mit TypeScript verwenden
+- Next.js App Router-Konventionen befolgen
+- Komponenten einfach und fokussiert halten
+- Aussagekräftige Variablen- und Funktionsnamen verwenden
